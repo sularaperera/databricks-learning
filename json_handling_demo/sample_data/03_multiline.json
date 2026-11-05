@@ -1,0 +1,37 @@
+[
+  {
+    "order_id": 3001,
+    "order_ts": "2026-03-01T10:00:00Z",
+    "customer": {
+      "id": "C010",
+      "name": "Kasun Silva"
+    },
+    "items": [
+      { "sku": "MON-27", "name": "27in Monitor", "qty": 1, "unit_price": 289.00 },
+      { "sku": "HDM-01", "name": "HDMI Cable", "qty": 2, "unit_price": 7.50 }
+    ],
+    "notes": "Leave at the front desk.\nCall before delivery."
+  },
+  {
+    "order_id": 3002,
+    "order_ts": "2026-03-01T12:30:00Z",
+    "customer": {
+      "id": "C011",
+      "name": "Emma Brown"
+    },
+    "items": [
+      { "sku": "SPK-04", "name": "Bluetooth Speaker", "qty": 1, "unit_price": 79.00 }
+    ],
+    "notes": null
+  },
+  {
+    "order_id": 3003,
+    "order_ts": "2026-03-02T16:45:00Z",
+    "customer": {
+      "id": "C012",
+      "name": "Ravi Kumar"
+    },
+    "items": [],
+    "notes": "Customer requested invoice copy."
+  }
+]

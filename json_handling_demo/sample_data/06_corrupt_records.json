@@ -1,0 +1,11 @@
+{"order_id": 6001, "customer_id": "C001", "amount": 51.98, "status": "DELIVERED"}
+{"order_id": 6002, "customer_id": "C002", "amount": 49.50, "status": "SHIPPED"
+{order_id: 6003, customer_id: "C003", amount: 119.00, status: "DELIVERED"}
+{'order_id': 6004, 'customer_id': 'C004', 'amount': 177.00, 'status': 'PENDING'}
+{"order_id": 6005, "customer_id": "C005", "amount": 199.99, "status": "SHIPPED",}
+{"order_id": 6006, "customer_id": "C006", "amount": 15.00, /* legacy system export */ "status": "DELIVERED"}
+this line is not json at all - someone pasted a log message here
+{"order_id": 6007, "customer_id": "C007", "amount": Infinity, "status": "RETURNED"}
+{"order_id": 6008, "customer_id": "C008", "amount": 33.30, "status": "SHIPPED", "note": "path C:\data\orders"}
+
+{"order_id": 6009, "customer_id": "C009", "amount": 88.00, "status": "DELIVERED"}

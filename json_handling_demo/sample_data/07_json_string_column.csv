@@ -1,0 +1,7 @@
+event_id,event_ts,source,payload
+evt-001,2026-06-01T10:00:00Z,order_api,"{""order_id"": 7001, ""customer"": {""id"": ""C001"", ""tier"": ""gold""}, ""items"": [{""sku"": ""MSE-01"", ""qty"": 2, ""unit_price"": 25.99}], ""total"": 51.98}"
+evt-002,2026-06-01T10:05:12Z,order_api,"{""order_id"": 7002, ""customer"": {""id"": ""C002"", ""tier"": ""silver""}, ""items"": [{""sku"": ""HUB-07"", ""qty"": 1, ""unit_price"": 49.5}], ""total"": 49.5, ""coupon"": ""WELCOME10""}"
+evt-003,2026-06-01T10:07:45Z,payment_api,"{""payment_id"": ""P-9001"", ""order_id"": 7001, ""method"": ""CARD"", ""amount"": 51.98, ""status"": ""captured""}"
+evt-004,2026-06-01T10:09:01Z,order_api,"{""order_id"": 7003, ""customer"": {""id"": ""C003""}, ""items"": [], ""total"": 0}"
+evt-005,2026-06-01T10:11:30Z,shipping_api,"{""shipment_id"": ""S-501"", ""order_id"": 7002, ""carrier"": ""DHL"", ""eta"": ""2026-06-04""}"
+evt-006,2026-06-01T10:12:00Z,order_api,"{""order_id"": 7004, ""total"": "

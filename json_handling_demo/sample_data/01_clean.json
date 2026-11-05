@@ -1,0 +1,6 @@
+{"order_id": 1001, "customer_id": "C001", "order_date": "2026-01-05", "product": "Wireless Mouse", "quantity": 2, "price": 25.99, "status": "DELIVERED"}
+{"order_id": 1002, "customer_id": "C002", "order_date": "2026-01-05", "product": "USB-C Hub", "quantity": 1, "price": 49.50, "status": "SHIPPED"}
+{"order_id": 1003, "customer_id": "C003", "order_date": "2026-01-06", "product": "Mechanical Keyboard", "quantity": 1, "price": 119.00, "status": "DELIVERED"}
+{"order_id": 1004, "customer_id": "C001", "order_date": "2026-01-07", "product": "Laptop Stand", "quantity": 1, "price": 39.99, "status": "CANCELLED"}
+{"order_id": 1005, "customer_id": "C004", "order_date": "2026-01-08", "product": "Webcam HD", "quantity": 3, "price": 59.00, "status": "PENDING"}
+{"order_id": 1006, "customer_id": "C005", "order_date": "2026-01-08", "product": "Noise Cancelling Headphones", "quantity": 1, "price": 199.99, "status": "SHIPPED"}

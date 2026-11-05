@@ -1,0 +1,7 @@
+{"order_id": 4001, "customer_id": "C001", "amount": 51.98, "status": "DELIVERED"}
+{"order_id": 4002, "customer_id": "C002", "amount": 49.50, "status": "SHIPPED", "currency": "USD"}
+{"order_id": 4003, "customerId": "C003", "amount": 119.00, "status": "DELIVERED", "currency": "GBP"}
+{"order_id": 4004, "CUSTOMER_ID": "C004", "total_amount": 177.00, "Status": "pending", "currency": "INR", "channel": "mobile_app"}
+{"order_id": 4005, "customer_id": "C005", "amount": 199.99, "status": "SHIPPED", "currency": "USD", "discount": {"code": "BLACKFRIDAY", "pct": 20}}
+{"order_id": 4006, "customer_id": "C006", "amount": 15.00, "status": "DELIVERED", "legacy_flag": null}
+{"orderId": 4007, "customer_id": "C007", "amount": 64.25, "status": "returned", "currency": "usd", "channel": "web"}

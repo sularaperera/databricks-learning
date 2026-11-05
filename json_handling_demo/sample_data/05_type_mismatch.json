@@ -1,0 +1,6 @@
+{"order_id": 5001, "quantity": 2, "price": 25.99, "is_gift": true, "order_date": "2026-05-01", "created_at": "2026-05-01 09:15:00", "zip": "00300"}
+{"order_id": "5002", "quantity": "1", "price": "49.50", "is_gift": "false", "order_date": "05/02/2026", "created_at": "2026-05-02T11:42:10Z", "zip": 20000}
+{"order_id": 5003, "quantity": 1.0, "price": 119, "is_gift": "Y", "order_date": "2026/05/03", "created_at": "1777800000", "zip": "SW1A 1AA"}
+{"order_id": 5004, "quantity": null, "price": "N/A", "is_gift": 0, "order_date": "03-May-2026", "created_at": "", "zip": 600001}
+{"order_id": 5005, "quantity": "three", "price": 1234567890.123456789, "is_gift": null, "order_date": "2026-05-05", "created_at": "2026-05-05T08:00:00.123+05:30", "zip": 00501}
+{"order_id": 5006, "quantity": 4, "price": NaN, "is_gift": false, "order_date": "", "created_at": "2026-05-06 22:10:05", "zip": "10001"}
