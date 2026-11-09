@@ -1,4 +1,8 @@
 # Databricks notebook source
+# /// script
+# [tool.databricks.environment]
+# environment_version = "6"
+# ///
 # MAGIC %md
 # MAGIC # Handling Real-World Messy JSON in Databricks
 # MAGIC
@@ -34,6 +38,8 @@ dbutils.widgets.text("catalog", "workspace", "Catalog")
 dbutils.widgets.text("schema", "json_demo", "Schema")
 dbutils.widgets.text("volume", "raw", "Volume")
 
+# COMMAND ----------
+
 catalog = dbutils.widgets.get("catalog")
 schema = dbutils.widgets.get("schema")
 volume = dbutils.widgets.get("volume")
@@ -57,6 +63,11 @@ print(f"Sample data path: {data_path}")
 # MAGIC **Option B (manual):** Catalog Explorer → your volume → **Upload to this volume** → upload the files into
 # MAGIC `json_demo/sample_data/`. Or use the CLI:
 # MAGIC `databricks fs cp -r ./sample_data dbfs:/Volumes/<catalog>/<schema>/<volume>/json_demo/sample_data`
+# MAGIC
+# MAGIC
+# MAGIC I have used databricks CLI to copy sample data from "json_handling_demo\sample_data" into /Volumes/workspace/json_demo/raw
+# MAGIC
+# MAGIC **databricks fs cp -r ./json_handling_demo/sample_data dbfs:/Volumes/workspace/json_demo/raw/json_demo/sample_data**
 
 # COMMAND ----------
 
@@ -80,13 +91,13 @@ display(dbutils.fs.ls(data_path))
 from pyspark.sql import functions as F
 from pyspark.sql.types import StructType, ArrayType
 
-def p(file_name):
+def file_path(file_name):
     """Full path of a sample file in the volume."""
     return f"{data_path}/{file_name}"
 
 def show_raw(file_name, n=20):
     """Print the raw text of a file so we can SEE the mess before parsing it."""
-    for row in spark.read.text(p(file_name)).limit(n).collect():
+    for row in spark.read.text(file_path(file_name)).limit(n).collect():
         print(row.value)
 
 # COMMAND ----------
@@ -103,7 +114,7 @@ show_raw("01_clean.json")
 
 # COMMAND ----------
 
-df_clean = spark.read.json(p("01_clean.json"))
+df_clean = spark.read.json(file_path("01_clean.json"))
 df_clean.printSchema()
 display(df_clean)
 
@@ -136,7 +147,7 @@ df_clean_typed = (
     spark.read
     .schema(orders_schema)
     .option("dateFormat", "yyyy-MM-dd")
-    .json(p("01_clean.json"))
+    .json(file_path("01_clean.json"))
 )
 df_clean_typed.printSchema()
 display(df_clean_typed)
@@ -144,7 +155,7 @@ display(df_clean_typed)
 # COMMAND ----------
 
 # `prefersDecimal` = infer floating numbers as DECIMAL instead of DOUBLE (when they fit)
-spark.read.option("prefersDecimal", True).json(p("01_clean.json")).printSchema()
+spark.read.option("prefersDecimal", True).json(file_path("01_clean.json")).printSchema()
 
 # COMMAND ----------
 
