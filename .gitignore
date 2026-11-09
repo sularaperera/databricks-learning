@@ -1,0 +1,19 @@
+
+# Python / uv
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+ 
+# Secrets & local config
+.env
+*.pem
+.databrickscfg
+ 
+# Databricks local files
+.databricks/
+ 
+# Editors / OS
+.vscode/settings.json
+Thumbs.db
+.DS_Store
