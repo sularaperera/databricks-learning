@@ -1,0 +1,6 @@
+{"txn_id": "T-0021", "account_id": "A-1003", "amount": 14.20, "currency": "GBP", "txn_type": "DEBIT", "merchant_category": "CAFE", "txn_ts": "2026-10-02T08:05:00Z", "country": "GB", "channel": "POS"}
+{"txn_id": "T-0022", "account_id": "A-1007", "amount": 300.00, "currency": "LKR", "txn_type": "CREDIT", "merchant_category": "PAYMENT", "txn_ts": "2026-10-02T09:00:00Z", "country": "LK", "channel": "BANK_TRANSFER"}
+{"txn_id": "T-0023", "account_id": "A-1006", "amount": 40.00, "currency": "EUR", "txn_type": "DEBIT", "merchant_category": "CLOTHING", "txn_ts": "2026-10-02T10:30:00Z", "country": "ES", "channel": "ONLINE"}
+{"txn_id": "T-0024", "account_id": "A-1005", "amount": 0.00, "currency": "EUR", "txn_type": "DEBIT", "merchant_category": "SUBSCRIPTION", "txn_ts": "2026-10-02T11:11:11Z", "country": "DE", "channel": "ONLINE"}
+{"txn_id": "T-0025", "account_id": "A-1008", "amount": 27.80, "currency": "usd", "txn_type": "DEBIT", "merchant_category": "RESTAURANT", "txn_ts": "2026-10-02T12:45:00Z", "country": "US", "channel": "POS"}
+{"txn_id": "T-0026", "account_id": "A-1001", "amount": 88.00, "currency": "LKR", "txn_type": "DEBIT", "merchant_category": "ELECTRONICS", "txn_ts": "2026-10-02T14:00:00Z", "country": "LK", "channel": "ONLINE"}

@@ -5,6 +5,9 @@
 bundle:
   name: databricks-learning
 
+include:
+  - de_production_patterns/resources/*.yml
+
 targets:
   dev:
     mode: development

@@ -12,6 +12,7 @@ __pycache__/
  
 # Databricks local files
 .databricks/
+how_spark_runs_massive_workloads
  
 # Editors / OS
 .vscode/settings.json

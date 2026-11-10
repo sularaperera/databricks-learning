@@ -1,0 +1,9 @@
+order_id,customer_id,city,quantity,price,notes
+5001,C001,Auckland,2,25.99,all good
+5002,  C002  ,  Tauranga ,1,49.50,   padded with spaces   
+5003,C003,NULL,1,119.00,
+5004,C004,null,,177.00,"   "
+5005,C005,N/A,3,NaN,"  quoted keeps spaces  "
+5006,  ,Napier,1,\N,MySQL style null
+5007,C007,,NA,199.99,#N/A
+5008,C008,-,1,15.00,none

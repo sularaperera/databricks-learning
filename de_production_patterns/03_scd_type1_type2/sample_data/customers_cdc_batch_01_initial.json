@@ -1,0 +1,5 @@
+{"customer_id": "C001", "full_name": "Amaya Silva", "email": "amaya.silva@example.com", "city": "Colombo", "tier": "SILVER", "op": "INSERT", "change_seq": 101, "event_ts": "2026-01-05T09:00:00Z"}
+{"customer_id": "C002", "full_name": "Ben Carter", "email": "ben.carter@example.com", "city": "Kandy", "tier": "GOLD", "op": "INSERT", "change_seq": 102, "event_ts": "2026-01-05T09:01:00Z"}
+{"customer_id": "C003", "full_name": "Chen Wei", "email": "chen.wei@example.com", "city": "Galle", "tier": "BRONZE", "op": "INSERT", "change_seq": 103, "event_ts": "2026-01-05T09:02:00Z"}
+{"customer_id": "C004", "full_name": "Divya Nair", "email": "divya.nair@example.com", "city": "Jaffna", "tier": "SILVER", "op": "INSERT", "change_seq": 104, "event_ts": "2026-01-05T09:03:00Z"}
+{"customer_id": "C005", "full_name": "Erik Larsen", "email": "erik.larsen@example.com", "city": "Negombo", "tier": "BRONZE", "op": "INSERT", "change_seq": 105, "event_ts": "2026-01-05T09:04:00Z"}

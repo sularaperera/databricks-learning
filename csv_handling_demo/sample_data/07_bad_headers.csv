@@ -1,0 +1,4 @@
+Order ID,Customer-ID, Customer Name ,Unit Price (NZ$),Qty,qty,Ship.Date,,% Discount,Region / Rohe
+7001,C001,Aroha Ngata,39.90,2,2,2026-07-01,x,10,Tāmaki Makaurau
+7002,C002,Liam Thompson,54.50,1,1,2026-07-02,,0,Te Whanganui-a-Tara
+7003,C003,Olivia Wilson,129.00,1,1,2026-07-03,y,5,Ōtautahi

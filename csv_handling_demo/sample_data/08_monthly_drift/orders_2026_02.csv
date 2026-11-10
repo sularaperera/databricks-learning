@@ -1,0 +1,3 @@
+order_id,customer_id,channel,order_date,amount,status
+8101,C003,web,2026-02-03,119.00,DELIVERED
+8102,C004,click_and_collect,2026-02-14,177.00,PENDING

@@ -1,0 +1,9 @@
+order_id,customer_id,customer_name,city,order_date,product,quantity,price,status
+1001,C001,Aroha Ngata,Auckland,2026-01-05,Merino Beanie,2,39.90,DELIVERED
+1002,C002,Liam Thompson,Wellington,2026-01-05,Manuka Honey 500g,1,54.50,SHIPPED
+1003,C003,Mere Wiremu,Rotorua,2026-01-06,Pounamu Pendant,1,129.00,DELIVERED
+1004,C001,Aroha Ngata,Auckland,2026-01-07,Gumboots,1,69.99,CANCELLED
+1005,C004,Olivia Wilson,Christchurch,2026-01-08,Kiwifruit Box 5kg,1,32.00,DELIVERED
+1006,C005,Tama Parata,Hamilton,2026-01-08,Jandals,3,14.50,SHIPPED
+1007,C002,Liam Thompson,Wellington,2026-01-09,Coffee Beans 1kg,1,42.00,PENDING
+1008,C006,Charlotte Brown,Dunedin,2026-01-10,Possum Merino Socks,2,29.90,DELIVERED

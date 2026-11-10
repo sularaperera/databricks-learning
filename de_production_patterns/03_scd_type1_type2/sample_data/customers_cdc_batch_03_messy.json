@@ -1,0 +1,6 @@
+{"customer_id": "C002", "full_name": "Ben Carter", "email": "ben.carter@example.com", "city": "Colombo", "tier": "PLATINUM", "op": "UPDATE", "change_seq": 301, "event_ts": "2026-03-01T09:00:00Z"}
+{"customer_id": "C002", "full_name": "Ben Carter", "email": "ben.carter@example.com", "city": "Dehiwala", "tier": "PLATINUM", "op": "UPDATE", "change_seq": 302, "event_ts": "2026-03-10T17:30:00Z"}
+{"customer_id": "C002", "full_name": "Ben Carter", "email": "ben.carter@example.com", "city": "Dehiwala", "tier": "PLATINUM", "op": "UPDATE", "change_seq": 302, "event_ts": "2026-03-10T17:30:00Z"}
+{"customer_id": "C003", "full_name": "Chen Wei", "email": "chen.wei@example.com", "city": "Matara", "tier": "BRONZE", "op": "UPDATE", "change_seq": 150, "event_ts": "2026-01-20T12:00:00Z"}
+{"customer_id": "C005", "full_name": null, "email": null, "city": null, "tier": null, "op": "DELETE", "change_seq": 303, "event_ts": "2026-03-05T10:00:00Z"}
+{"customer_id": "C004", "full_name": "Divya Nair", "email": "divya.n@example.org", "city": "Jaffna", "tier": "GOLD", "op": "UPDATE", "change_seq": 304, "event_ts": "2026-03-12T13:15:00Z"}

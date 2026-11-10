@@ -1,0 +1,3 @@
+{"sale_id": "S-4001", "Store_ID": "ST04", "sku": "MILK-1L", "qty": 2, "unit_price": 1.85, "sold_at": "2026-03-04T09:00:00Z", "loyalty_id": "L-901", "payment_method": "CARD", "promo": {"code": "MILK10", "pct": 10}}
+{"sale_id": "S-4002", "store_id": "ST01", "sku": "BREAD-WHT", "qty": 1, "unit_price": 2.10, "sold_at": "2026-03-04T09:25:13Z", "loyalty_id": null, "payment_method": "QR", "promo": null}
+{"sale_id": "S-4003", "store_id": "ST02", "sku": "RICE-5KG", "qty": 1, "unit_price": 12.00, "sold_at": "2026-03-04T11:48:09Z", "loyalty_id": "L-102", "payment_method": "CARD", "promo": {"code": "RICE50C", "pct": 4}}

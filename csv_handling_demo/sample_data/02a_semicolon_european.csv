@@ -1,0 +1,6 @@
+order_id;supplier_sku;order_date;product;quantity;price;status
+2001;DE-4410;05.02.2026;Wanderschuhe;2;89,99;GELIEFERT
+2002;DE-4411;05.02.2026;Regenjacke;1;149,50;VERSANDT
+2003;DE-4412;06.02.2026;Zelt 4 Personen;1;1.249,00;GELIEFERT
+2004;DE-4413;07.02.2026;Schlafsack;1;289,00;OFFEN
+2005;DE-4414;08.02.2026;Seil, 20m;3;27,50;VERSANDT

@@ -1,0 +1,3 @@
+{"sale_id": "S-2001", "store_id": "ST01", "sku": "TEA-400G", "qty": 2, "unit_price": 6.25, "sold_at": "2026-03-02T09:05:00Z", "loyalty_id": "L-778", "payment_method": "CARD"}
+{"sale_id": "S-2002", "store_id": "ST03", "sku": "MILK-1L", "qty": 6, "unit_price": 1.80, "sold_at": "2026-03-02T09:30:12Z", "loyalty_id": null, "payment_method": "CASH"}
+{"sale_id": "S-2003", "store_id": "ST02", "sku": "BREAD-WHT", "qty": 1, "unit_price": 2.10, "sold_at": "2026-03-02T10:11:45Z", "loyalty_id": "L-102", "payment_method": "QR"}

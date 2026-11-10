@@ -1,0 +1,6 @@
+{"event_id": "E016", "parcel_id": "P-400", "van_id": "VAN-1", "status": "PICKED_UP", "event_time": "2026-09-14T11:32:00Z", "received_at": "2026-09-14T11:32:02Z", "attempt": 1}
+{"event_id": "E017", "parcel_id": "P-301", "van_id": "VAN-3", "status": "PICKED_UP", "event_time": "2026-09-14T10:08:00Z", "received_at": "2026-09-14T11:35:00Z", "attempt": 1}
+{"event_id": "E018", "parcel_id": "P-300", "van_id": "VAN-3", "status": "IN_TRANSIT", "event_time": "2026-09-14T10:20:00Z", "received_at": "2026-09-14T11:36:00Z", "attempt": 1}
+{"event_id": "E012", "parcel_id": "P-200", "van_id": "VAN-2", "status": "OUT_FOR_DELIVERY", "event_time": "2026-09-14T10:36:00Z", "received_at": "2026-09-14T11:40:00Z", "attempt": 3}
+{"event_id": "E019", "parcel_id": "P-200", "van_id": "VAN-2", "status": "DELIVERED", "event_time": "2026-09-14T11:45:00Z", "received_at": "2026-09-14T11:45:06Z", "attempt": 1}
+{"event_id": "E020", "parcel_id": "P-201", "van_id": "VAN-2", "status": "DELIVERED", "event_time": "2026-09-14T11:48:00Z", "received_at": "2026-09-14T11:48:02Z", "attempt": 1}

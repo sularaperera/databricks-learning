@@ -1,0 +1,15 @@
+sep=,
+Monthly Sales Report - Kiwi Outdoors Ltd
+Generated: 01/04/2026 8:00 am
+Region: Auckland / Northland
+
+order_id,customer_id,order_date,amount_nzd,status
+# exported from LegacyERP v2.3
+4001,C001,2026-03-01,51.98,DELIVERED
+4002,C002,2026-03-02,49.50,SHIPPED
+
+4003,C003,2026-03-03,119.00,DELIVERED
+4004,C004,2026-03-04,177.00,PENDING
+,,,,
+TOTAL,,,397.48,
+Rows: 4

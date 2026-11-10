@@ -1,0 +1,9 @@
+account_id,customer_name,account_status,credit_limit,home_country
+A-1001,Nimal Perera,ACTIVE,5000.00,LK
+A-1002,Ayesha Fernando,ACTIVE,2000.00,LK
+A-1003,John Smith,ACTIVE,10000.00,GB
+A-1004,Priya Sharma,FROZEN,3000.00,IN
+A-1005,Lukas Becker,ACTIVE,7500.00,DE
+A-1006,Maria Garcia,CLOSED,1500.00,ES
+A-1007,Kasun Jayasuriya,ACTIVE,2500.00,LK
+A-1008,Emily Chen,ACTIVE,8000.00,US

@@ -1,0 +1,2 @@
+{"sale_id": "S-5001", "store_id": "ST01", "sku": "TEA-400G", "qty": 1, "price": 6.40, "sold_at": "2026-03-05T09:10:00Z", "loyalty_id": "L-778", "payment_method": "CARD"}
+{"sale_id": "S-5002", "store_id": "ST03", "sku": "SOAP-3PK", "qty": 2, "price": 4.99, "sold_at": "2026-03-05T10:33:51Z", "loyalty_id": null, "payment_method": "CASH"}

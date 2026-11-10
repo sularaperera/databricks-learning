@@ -1,0 +1,3 @@
+# These files are deliberately messy: CRLF line endings, Windows-1252, UTF-16, BOMs, trailing spaces.
+# Tell git to store and check them out byte-for-byte, never "fixing" line endings or encodings.
+* -text

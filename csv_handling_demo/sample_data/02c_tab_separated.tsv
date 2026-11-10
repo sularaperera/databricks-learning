@@ -1,0 +1,4 @@
+order_id	customer_id	customer_name	city	order_date	product	quantity	price	status
+2201	C301	Ruby Mitchell	Palmerston North	2026-02-15	Merino Jumper, Navy, Size M	1	149.00	SHIPPED
+2202	C302	Nikau Te Whare	Whanganui	2026-02-15	Gumboots, Black, Size 10	2	69.99	DELIVERED
+2203	C303	Emily Taylor	Invercargill	2026-02-16	Manuka Honey, UMF 10+, 500g	1	54.50	PENDING

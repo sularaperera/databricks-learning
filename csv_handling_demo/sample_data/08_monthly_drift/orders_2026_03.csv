@@ -1,0 +1,3 @@
+order_id,order_date,customer_id,total_amount_nzd,status,region
+8201,2026-03-01,C005,199.99,SHIPPED,Canterbury
+8202,2026-03-09,C006,15.00,DELIVERED,Otago

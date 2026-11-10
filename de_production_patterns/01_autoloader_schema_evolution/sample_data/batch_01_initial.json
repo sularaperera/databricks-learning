@@ -1,0 +1,5 @@
+{"sale_id": "S-1001", "store_id": "ST01", "sku": "RICE-5KG", "qty": 2, "unit_price": 12.50, "sold_at": "2026-03-01T09:15:00Z"}
+{"sale_id": "S-1002", "store_id": "ST01", "sku": "TEA-400G", "qty": 1, "unit_price": 6.25, "sold_at": "2026-03-01T09:17:42Z"}
+{"sale_id": "S-1003", "store_id": "ST02", "sku": "MILK-1L", "qty": 4, "unit_price": 1.80, "sold_at": "2026-03-01T10:02:10Z"}
+{"sale_id": "S-1004", "store_id": "ST03", "sku": "SOAP-3PK", "qty": 1, "unit_price": 4.99, "sold_at": "2026-03-01T10:45:00Z"}
+{"sale_id": "S-1005", "store_id": "ST02", "sku": "RICE-5KG", "qty": 1, "unit_price": 12.50, "sold_at": "2026-03-01T11:20:31Z"}

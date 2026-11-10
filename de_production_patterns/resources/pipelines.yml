@@ -1,0 +1,36 @@
+# Lakeflow Declarative Pipelines used by the de_production_patterns demos.
+# Included from the root databricks.yml. Deploy with:
+#   databricks bundle deploy -p <profile>
+#   databricks bundle run dq_transactions_pipeline -p <profile>
+#   databricks bundle run customers_auto_cdc_pipeline -p <profile>
+#
+# Run the matching notebook first: it copies the sample data into the volume the pipeline reads.
+
+variables:
+  demo_catalog:
+    description: Unity Catalog catalog for the demo pipelines
+    default: workspace
+
+resources:
+  pipelines:
+    dq_transactions_pipeline:
+      name: dq_transactions_pipeline
+      catalog: ${var.demo_catalog}
+      schema: dq_demo
+      serverless: true
+      libraries:
+        - file:
+            path: ../02_data_quality_expectations/pipeline/transactions_dq_pipeline.py
+      configuration:
+        dq_demo.source_path: /Volumes/${var.demo_catalog}/dq_demo/raw/dq_demo/sample_data
+
+    customers_auto_cdc_pipeline:
+      name: customers_auto_cdc_pipeline
+      catalog: ${var.demo_catalog}
+      schema: scd_demo
+      serverless: true
+      libraries:
+        - file:
+            path: ../03_scd_type1_type2/pipeline/customers_auto_cdc_pipeline.py
+      configuration:
+        scd_demo.source_path: /Volumes/${var.demo_catalog}/scd_demo/raw/scd_demo/sample_data

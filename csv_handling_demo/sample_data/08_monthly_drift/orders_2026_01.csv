@@ -1,0 +1,3 @@
+order_id,customer_id,order_date,amount,status
+8001,C001,2026-01-15,51.98,DELIVERED
+8002,C002,2026-01-20,49.50,SHIPPED
