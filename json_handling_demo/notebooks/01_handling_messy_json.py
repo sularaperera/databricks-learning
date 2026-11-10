@@ -172,7 +172,7 @@ show_raw("02_nested.json")
 
 # COMMAND ----------
 
-df_nested = spark.read.json(p("02_nested.json"))
+df_nested = spark.read.json(file_path("02_nested.json"))
 df_nested.printSchema()
 display(df_nested)
 
