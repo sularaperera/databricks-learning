@@ -53,7 +53,7 @@ csv_handling_demo/
    - Easiest: in Databricks go to **Workspace → Create → Git folder** and clone this repo. The notebook copies
      `sample_data/` (including the `08_monthly_drift/` folder) into the volume automatically.
    - Or import `notebooks/01_handling_messy_csv.py` manually (**Workspace → Import**).
-2. **Upload sample data** (only needed if you imported manually). From the `databricks-learning` folder:
+2. **Upload sample data** (Using Databricks CLI - which is much faster than going manual). From the `databricks-learning` folder:
    ```bash
    databricks fs cp -r --overwrite ./csv_handling_demo/sample_data dbfs:/Volumes/workspace/csv_demo/raw/csv_demo/sample_data --profile DEFAULT
    ```
